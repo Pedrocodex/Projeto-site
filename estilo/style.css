@@ -1,0 +1,166 @@
+@charset "UTF-8";
+   
+body{                   
+        background-image: linear-Gradient(to top, #107c29,#217533, #18d645 ); /* degradê de cores da página */
+        background-attachment: fixed; /* fixo */
+    }
+    
+
+
+@import url('..https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+    
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo img {
+    width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 50px;
+    margin-right: 6px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    
+}
+
+.logo h1{
+    font-size: 25px;
+    font-family: 'Hanalei Fill';
+    color: rgb(9, 218, 26);
+    justify-content: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+
+.borda-lateral{
+    border-left: 30px solid #0DBE49,#18F085, #52D990; /* largura e cor da borda esquerda */
+    border-right: 25px solid #0DBE49,#18F085, #52D990; /* largura e cor da borda direita */
+    padding: 25px; /* espaçamento interno */
+}
+
+article{
+    font-size: large ;
+    font-family: 'Josefin Slab', serif;
+    color: #000000
+    
+     
+}
+
+article h1{
+    text-align: center;
+    font-size: 27px;
+    
+    
+}
+
+article h2{
+  font-size: 22px;
+}
+
+article p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.4em;
+
+}
+
+article audio{
+  width: 400px; 
+  height: 30px;
+  opacity: 0.5;
+}
+
+picture img{
+    display: flex;
+    justify-content: center;
+    display: block;
+    
+}
+
+div.vídeo {
+    background-color: #217533;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+    border-radius: 5px;
+    
+  
+
+}
+
+div.vídeo > iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+/* Estilos CSS para o cabeçalho com menu */
+header {
+    background-image: linear-gradient(#0ca506, rgba(0, 175, 15, 0.658), rgba(0, 207, 17, 0.199), );
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+    
+  }
+  
+  nav ul li a {
+    color: #ffffffcc;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 4px rgba(1, 43, 18, 0.2);
+    text-shadow: 2px 2px 4px rgba(1, 53, 17, 0.8);
+    
+}
+  
+  
+  nav ul li a:hover {
+    background-color: #18d645
+
+  }
+  
+  ::-webkit-scrollbar { /* config da scrollbar ou barra de navegação */
+    width: 15px;
+    height: 90%;
+    background: linear-Gradient(to top,  #107c29,#217533, #18d645 ); 
+  }
+
+   
+::-webkit-scrollbar-thumb {
+    background-color: #1f8535;
+    border-radius: 0px;
+    border: 1px solid #51d803ef ;
+    
+  }
+   
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0e9419
+    
+  }
+
+  footer{
+    text-align: center;
+    background-color: #51d8031f;
+    color: white
+  }
