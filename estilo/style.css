@@ -9,11 +9,10 @@
 body{                   
         background-image: linear-Gradient(to top, #107c29,#217533, #18d645 ); /* degradê de cores da página */
         background-attachment: fixed; /* fixo */
+        
     }
     
-    a.externo::after {
-      content: '\00A0\1F517';
-  }
+
  
 
 .logo{
@@ -141,8 +140,8 @@ header {
   }
 
   main {
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 3px;
+    max-width: 1200px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
