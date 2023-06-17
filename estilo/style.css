@@ -152,24 +152,6 @@ header {
 
     }
   
-  ::-webkit-scrollbar { /* config da scrollbar ou barra de navegação */
-    width: 15px;
-    height: 90%;
-    background: linear-Gradient(to top,  #107c29,#217533, #18d645 ); 
-  }
-
-   
-::-webkit-scrollbar-thumb {
-    background-color: #1f8535;
-    border-radius: 0px;
-    border: 1px solid #51d803ef ;
-    
-  }
-   
-::-webkit-scrollbar-thumb:hover {
-    background-color: #0e9419
-    
-  }
 
   footer{
     text-align: center;
