@@ -107,6 +107,7 @@ header {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    
   }
   
 
@@ -130,6 +131,8 @@ header {
     border-radius: 7px;
     box-shadow: 0px 2px 4px rgba(1, 43, 18, 0.2);
     text-shadow: 2px 2px 4px rgba(1, 53, 17, 0.8);
+    min-height: 500px;
+    
     
 }
   
@@ -140,17 +143,18 @@ header {
   }
 
   main {
-    min-width: 800px;
-    max-width: 1200px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #217533(160, 20, 20);
+    background-color: #107c29;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
-    }
+    
   
   ::-webkit-scrollbar { /* config da scrollbar ou barra de navegação */
     width: 15px;
