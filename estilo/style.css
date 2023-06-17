@@ -140,7 +140,7 @@ header {
   }
 
   main {
-    min-width: 3px;
+    min-width: 390px;
     max-width: 1200px;
     margin: auto;
     margin-bottom: 30px;
