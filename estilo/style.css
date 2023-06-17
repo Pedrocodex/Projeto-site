@@ -1,14 +1,20 @@
 @charset "UTF-8";
    
+@import url('..https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body{                   
         background-image: linear-Gradient(to top, #107c29,#217533, #18d645 ); /* degradê de cores da página */
         background-attachment: fixed; /* fixo */
     }
     
-
-
-@import url('..https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
-    
+    a.externo::after {
+      content: '\00A0\1F517';
+  }
+ 
 
 .logo{
     display: flex;
@@ -34,11 +40,6 @@ body{
     
 }
 
-.borda-lateral{
-    border-left: 30px solid #0DBE49,#18F085, #52D990; /* largura e cor da borda esquerda */
-    border-right: 25px solid #0DBE49,#18F085, #52D990; /* largura e cor da borda direita */
-    padding: 25px; /* espaçamento interno */
-}
 
 article{
     font-size: large ;
@@ -75,9 +76,8 @@ article audio{
 }
 
 picture img{
-    display: flex;
-    justify-content: center;
-    display: block;
+    width: 100%
+    
     
 }
 
@@ -139,6 +139,19 @@ header {
     background-color: #18d645
 
   }
+
+  main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #217533(160, 20, 20);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    }
   
   ::-webkit-scrollbar { /* config da scrollbar ou barra de navegação */
     width: 15px;
